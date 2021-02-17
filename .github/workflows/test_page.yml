@@ -35,9 +35,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install Sphinx
       - name: Build sphinx documentation
-      run: |
-        make html 
-      - uses: peaceiris/actions-gh-pages@v3
+        run: |
+          make html 
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-      github_token: ${{ secrets.ACCESS_TOKEN_ONE }}
-      publish_dir: ./public
+          github_token: ${{ secrets.ACCESS_TOKEN_ONE }}
+          publish_dir: ./public
