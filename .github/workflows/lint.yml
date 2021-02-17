@@ -16,7 +16,4 @@ jobs:
           python -m pip install --upgrade pip
       - name: Lint
       - uses: psf/black@stable
-        # run: |
-        #   black . --check
-        #   isort . --check
-        #   flake8
+        
