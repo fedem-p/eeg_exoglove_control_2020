@@ -22,7 +22,7 @@ jobs:
           isort . --check
           flake8
 
-  build and deploy:
+  buildAndDeploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
