@@ -1,5 +1,4 @@
-import numpy as numpy
-
+import numpy as np
 
 a = np.zeros(2, 3)
 
