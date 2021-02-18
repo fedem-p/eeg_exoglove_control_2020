@@ -1,3 +1,9 @@
+# hardware
+
+Some text
+
+## Subtitle
+
 ```{admonition} Here's my hardware
 :class: warning
 
