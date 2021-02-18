@@ -1,0 +1,5 @@
+file: index
+sections:
+- file: hardware
+- file: conf
+- file: intro
