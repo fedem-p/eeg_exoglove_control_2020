@@ -23,7 +23,7 @@ jobs:
     # Build the book
     - name: Build the book
       run: |
-        jupyter-book build ./docs/source/
+        jupyter-book build ./docs/source/git b
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
