@@ -1,7 +1,7 @@
 ```{admonition} Here's my hardware
 :class: warning
 
-Here's my admonition content
+Here's my hardware content
 ```
 
 ```{include} ../../README.md
