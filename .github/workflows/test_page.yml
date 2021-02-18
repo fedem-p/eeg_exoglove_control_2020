@@ -30,7 +30,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3.6.1
       with:
         github_token: ${{ secrets.ACCESS_TOKEN_ONE }}
-        publish_dir: ./docs/_build/html
+        publish_dir: ./docs/source/_build/html
 
 
 #   lint:
