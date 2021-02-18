@@ -1,8 +1,5 @@
-```{admonition} Here's my title soopp
-:class: warning
+# Introduction
 
-Here's my admonition content
-```
+Some text
 
-```{include} ../../README.md
-```
+## Subtitle
